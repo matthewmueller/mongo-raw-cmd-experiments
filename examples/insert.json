@@ -1,0 +1,23 @@
+{
+    "insert": "pets",
+    "documents": [
+        {
+            "name": "Hans",
+            "type": "Dog",
+            "breed": "Dachshund",
+            "age": 4
+        },
+        {
+            "name": "Felinecitas",
+            "type": "Cat",
+            "breed": "Russian Blue",
+            "age": 12
+        },
+        {
+            "name": "XiaoMi",
+            "type": "Dog",
+            "breed": "Chow Chow",
+            "age": 2
+        }
+    ]
+}

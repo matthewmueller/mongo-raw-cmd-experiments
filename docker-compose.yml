@@ -1,0 +1,15 @@
+version: "3"
+services:
+  mongo4:
+    image: prismagraphql/mongo-single-replica:4.4.3-bionic
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "prisma"
+      MONGO_INITDB_ROOT_PASSWORD: "prisma"
+    ports:
+      - "27017:27017"
+    networks:
+      - database
+
+networks:
+  database:

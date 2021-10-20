@@ -1,0 +1,11 @@
+{
+    "find": "pets",
+    "filter": {
+        "type": {
+            "$eq": "Dog"
+        },
+        "age": {
+            "$lt": 4
+        }
+    }
+}
