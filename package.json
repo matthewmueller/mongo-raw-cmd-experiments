@@ -1,0 +1,32 @@
+{
+  "name": "mongo-raw-cmd-experiments",
+  "version": "1.0.0",
+  "description": "Simple binary to allow for experiments. Just pipe a command doc over stdin into the binary or write it as first argument. Find the command syntax here: https://docs.mongodb.com/manual/reference/command/",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpetrick/mongo-raw-cmd-experiments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpetrick/mongo-raw-cmd-experiments/issues"
+  },
+  "homepage": "https://github.com/dpetrick/mongo-raw-cmd-experiments#readme",
+  "dependencies": {
+    "get-stdin": "9.0.0",
+    "mongodb": "4.1.3"
+  },
+  "devDependencies": {
+    "ts-node": "10.3.0",
+    "typescript": "4.4.4"
+  }
+}
